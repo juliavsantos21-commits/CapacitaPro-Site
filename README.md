@@ -30,7 +30,7 @@ Orientador: Prof. Dr. LIZAR EVELLYN DA CONCEIÇÃO SANTOS
 | **HTML5** | Estrutura das páginas |
 | **CSS3** | Estilização e efeitos Glassmorphism |
 | **JavaScript** | Interatividade e lógica do front-end |
-| **Firebase** | Autenticação (Login com Google) |
+| **API** | Autenticação (Login com Google) |
 | **Font Awesome** | Ícones vetoriais |
 | **Google Fonts** | Tipografia (Montserrat, Inter, Poppins) |
 
@@ -88,57 +88,6 @@ CapacitaPro/
 - Efeitos de vidro (backdrop-filter)
 - Gradientes vibrantes
 - Design moderno e responsivo
-
----
-
-🗄️ Firebase Configuração
-
-O projeto utiliza autenticação Google. Configure seu próprio projeto:
-
-```javascript
-const firebaseConfig = {
-    apiKey: "SUA_API_KEY",
-    authDomain: "seu-projeto.firebaseapp.com",
-    projectId: "seu-projeto",
-    storageBucket: "seu-projeto.firebasestorage.app",
-    messagingSenderId: "SEU_SENDER_ID",
-    appId: "SEU_APP_ID"
-};
-```
-
-Passos para configurar:
-1. Crie um projeto no [Firebase Console](https://console.firebase.google.com/)
-2. Ative Authentication > Google como provedor
-3. Adicione `localhost` aos domínios autorizados
-4. Substitua as configurações no `login.html`
-
----
-
-🚀 Como Executar o Projeto
-
-Pré-requisitos
-- Navegador moderno (Chrome, Firefox, Edge)
-- Conexão com internet (para CDNs e Firebase)
-
-Execução Local
-```bash
- Clone o repositório
-git clone https://github.com/seu-usuario/capacitapro.git
-
- Navegue até a pasta do projeto
-cd capacitapro
-
- Abra o arquivo index.html no navegador
- OU use um servidor local (recomendado)
-npx live-server
-```
-
-Estrutura de Navegação
-1. Abra `inicio.html` → Página inicial
-2. Clique em "Cadastrar-se" → Fluxo de cadastro
-3. Clique em "Entrar" → Tela de login
-4. Explore "Cursos" → Catálogo com filtros
-5. Clique em "Saiba Mais" → Detalhes do curso
 
 ---
 
